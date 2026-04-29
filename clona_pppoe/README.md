@@ -1,1 +1,1 @@
-# teste
+# Script para clonar PPPoE de um mikrotik para outro
