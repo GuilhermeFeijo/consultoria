@@ -29,6 +29,18 @@ def carregar_ssh(host, port, user, password, command):
 
     return retorno
 
+def carregar_array_ssh(host, port, user, password, command):
+    
+    ssh.connect(host, port=port, username=user, password=password)
+
+    stdin, stdout, stderr = ssh.exec_command(command)
+
+    retorno = stdout.read().decode()
+
+    ssh.close()
+
+    return retorno
+
 def parse_ppp_secrets(export):
     linhas = export.splitlines()
     comandos = []
