@@ -129,5 +129,4 @@ Uso interno / livre para adaptação.
 
 ## 👨‍💻 Autor
 
-Script desenvolvido para automação de migração de PPP em ambientes MikroTik.
 Guilherme Feijó - 04/2026
